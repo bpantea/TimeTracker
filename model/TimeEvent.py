@@ -1,5 +1,5 @@
-from model.event import Event
-from model.timestamp import Timestamp
+from model.Event import Event
+from model.Timestamp import Timestamp
 
 
 class TimeEvent(object):

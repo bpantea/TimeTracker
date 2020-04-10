@@ -1,4 +1,4 @@
-from model.time_event import TimeEvent
+from model.TimeEvent import TimeEvent
 from os import path
 
 

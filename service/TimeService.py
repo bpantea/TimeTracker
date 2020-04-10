@@ -1,8 +1,8 @@
 from datetime import datetime
 
-from model.event import Event
-from model.time_event import TimeEvent
-from model.timestamp import Timestamp
+from model.Event import Event
+from model.TimeEvent import TimeEvent
+from model.Timestamp import Timestamp
 from repository import TimeEventRepository
 
 
@@ -56,4 +56,3 @@ class TimeService:
         if last_start is not None:
             response += '\nLast time you started tracking: ' + str(last_start)
         return response
-

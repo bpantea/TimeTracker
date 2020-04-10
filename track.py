@@ -8,7 +8,7 @@ sys.path.append(os.path.expanduser(source_code_directory))
 
 from repository.TimeEventRepository import TimeEventRepository
 from service.ProjectService import ProjectService
-from service.timeservice import TimeService
+from service.TimeService import TimeService
 
 project_service = ProjectService()
 repo = TimeEventRepository(project_service.get_current_filename())
